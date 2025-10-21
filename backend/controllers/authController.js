@@ -94,7 +94,7 @@ exports.login = async (req, res, next) => {
         const token = jwt.sign(
             { id: user.id, email: user.email },
             config.JWT.SECRET,
-            { expiresIn: config.JWT.EXPIRY }
+            { expiresIn: '30m' }
         );
 
         res.cookie('token', token, {
