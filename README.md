@@ -219,6 +219,10 @@ auth-system/
 
 Your Name - [GitHub](https://github.com/Andrii2203)
 
+## 📘 Additional Documentation
+For architecture and design details, see [DOCUMENTATION.md](./DOCUMENTATION.md).
+
+
 ## 📄 License
 
 This project is licensed under the MIT License.
